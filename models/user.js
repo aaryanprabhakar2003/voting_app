@@ -17,10 +17,10 @@ const userSchema = new mongoose.Schema({
     mobile: {
         type: String
     },
-    address: {
-        type: String,
-        required: true
-    },
+    // address: {
+    //     type: String,
+    //     required: false
+    // },
     aadharCardNumber: {
         type: Number,
         required: true,
